@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/teamexercisedbserver/databases/TeamExercise_db",
+      "type": "mssql.azure",
+      "connectionId": "SqlServer",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
